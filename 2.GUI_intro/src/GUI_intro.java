@@ -1,8 +1,17 @@
+import javax.swing.JOptionPane;
 
 public class GUI_intro {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		
+		String name = JOptionPane.showInputDialog("Enter your name: ");
+		JOptionPane.showMessageDialog(null,"Hello " + name);
+		
+		int age = Integer.parseInt(JOptionPane.showInputDialog("Enter your age: "));
+		JOptionPane.showInternalMessageDialog(null, "You are " + age + " years old");
+		
+		double height = Double.parseDouble(JOptionPane.showInputDialog("Enter your height: "));
+		JOptionPane.showInternalMessageDialog(null, "You are " + height + " cm tall");
 
 	}
 
