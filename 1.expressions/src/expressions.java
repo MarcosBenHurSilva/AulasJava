@@ -9,7 +9,9 @@ public class expressions {
 		
 		int friends = 10;
 		
-		friends--;
+		friends = friends * 2;
+		
+		friends++;
 		
 		System.out.println(friends);
 
