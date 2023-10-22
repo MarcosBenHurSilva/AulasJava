@@ -6,7 +6,7 @@ public class Ramdom_numbers {
 		
 		Random random = new Random();
 		
-		int x = random.nextInt(99)+0;
+		int x = random.nextInt(60)+1;
 		//double y = random.nextDouble();
 		//boolean z = random.nextBoolean();
 
